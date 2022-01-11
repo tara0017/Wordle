@@ -168,7 +168,7 @@ while True:
     words_dict = get_words_in_order(order, words_dict)
 
 
-    print('\n', len(words_dict), 'possible words left')
+    print('\n\t', len(words_dict), 'possible words left')
 
 
     if len(words_dict) < 10:
