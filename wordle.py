@@ -39,7 +39,7 @@ def get_top_words(word_dict, num_words):
     sorted_words = sorted(word_dict.items(), key=lambda x: x[1], reverse=True)
     count = 0
 
-    print('Remaining top words:')
+    print('Remaining top words without duplicates:')
     for w in sorted_words:
         if has_duplicates(w[0]) == False:
             print(w)
